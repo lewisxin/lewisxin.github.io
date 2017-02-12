@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Lewis Xin</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container-fluid main">
+        <div class="row site-header">
+            <div class="name-label">
+                <a href="index.html">
+                    <h4 class="text-center">Lewis &#183; Liu Xin</h4>
+                </a>
+            </div>
+            <div class="site-nav">
+                <ul class="nav nav-pills text-center">
+                    <li role="presentation"><a href="resume.html">R&eacute;sum&eacute;</a></li>
+                    <li role="presentation"><a href="gallery.html">Gallery</a></li>
+                    <li role="presentation" class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row site-content">
+            <div id="msg-form" class="col-md-12">
+                <div class="col-md-12">
+                    <h2 class="title text-center">Want to share something with me?</h2>
+                </div>
+                <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+                    <div class="alert alert-danger" role="alert" style="opacity: 0; padding: 0px"></div>
+                    <form action="submit">
+                        <div class="content table">
+                            <label for="name" style="width: 1px">"</label>
+                            <label for="name" style="width: 130px">Hi, my name is </label>
+                            <input id="name" type="text" placeholder="How do I address you?" autofocus/>
+                        </div>
+                        <div class="content table" style="margin-bottom: 35px">
+                            <textarea class="long-text" placeholder="What would you like to share?" style="resize: none;" rows="1" maxlength="250" autocorrect></textarea>
+                            <div id="word-count-container" style="float:right"><label id="word-count">0</label><label>/250</label></div>
+                        </div>
+                        <div class="content table">
+                            <label for="email" style="width: 175px">You can reach me at </label>
+                            <input id="email" type="text" placeholder="Your email address" />
+                            <label style="width: 1px">"</label>
+                        </div>
+                        <button id="send-btn" class="btn btn-default button" style="float: right">Send Message <i class="fa fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-12" id="msg-sent-alert">
+                <p class="icon text-center" style="font-size: 70px; color: #3c763d">
+                    <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                </p>
+                <p class="message text-center" style="color: #1A2930">
+                    Thank you for the message. I will send you a reply in a few days :)
+                </p>
+                <p class="message text-center" style="color: #1A2930">
+                    In the meantime, you can also like my <a href="https://www.facebook.com/lewis.xin.7">Facebook</a> page,
+                    follow me on <a href="https://www.instagram.com/lewisxin">Instagram</a>, or view my profile on <a href="https://www.github.com/lewisxin">GitHub</a>                    or <a href="https://www.linkedin.com/in/liu-xin-lewis">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row site-footer">
+        <p class="text-center footer-info"></p>
+        <div class="center-block" style="text-align: center">
+            <a class="fa fa-facebook-square social-links" aria-hidden="true" href="https://www.facebook.com/lewis.xin.7"></a>
+            <a class="fa fa-instagram social-links" aria-hidden="true" href="https://www.instagram.com/lewisxin"></a>
+            <a class="fa fa-github-square social-links" aria-hidden="true" href="https://www.github.com/lewisxin"></a>
+            <a class="fa fa-linkedin-square social-links" aria-hidden="true" href="https://www.linkedin.com/in/liu-xin-lewis"></a>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/formValidation.js"></script>
+</body>
+
+</html>
