@@ -2,7 +2,9 @@ body {
     border-style: solid;
     border-color: #1A2930;
     border-width: 10px 8px 10px 8px;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
 }
 
 .nav, .nav > li {
@@ -16,14 +18,14 @@ body {
 
 .main {
     height: 100%;
-    overflow: scroll;
     /*background: url("../img/skydive2.jpg") no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative;
     padding-bottom: 60px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     /*background-color: #C5C1C0;*/
 }
 
@@ -72,14 +74,13 @@ body {
     animation-name: imgFadeIn;
     animation-timing-function: ease;
     animation-duration: 0.6s;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
 }
 
 .site-footer {
     position: absolute;
-    width: 100%;
-    bottom: 5px;
+    right: 0;
+    bottom: 0;
+    left: 0;
     padding-top: 5px;
     background-color: #1A2930;
     color: white
