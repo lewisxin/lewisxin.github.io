@@ -72,6 +72,8 @@ body {
     animation-name: imgFadeIn;
     animation-timing-function: ease;
     animation-duration: 0.6s;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .site-footer {
