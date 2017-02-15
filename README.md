@@ -26,7 +26,7 @@ A personal webpage for Lewis, Liu Xin. You can get to know more about Lewis by v
     ├── LICENSE
     └── README.md
 ### To Run the Project
-Simply go to lewisxin.github.io
+Simply go to [lewisxin.github.io](https://lewisxin.github.io/)
 > Note: If you Clone or Download the entire repository, simply open index.html file in browser. Please make sure you have internet connections as some of the required libraries are loaded from cdnjs.com
 
 ### References
