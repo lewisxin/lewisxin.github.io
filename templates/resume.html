@@ -9,8 +9,8 @@
     <title>Lewis Xin</title>
 
     <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -41,69 +41,92 @@
             <div class="col-md-12">
                 <h2 class="title text-center">About Lewis</h2>
             </div>
-            <div class="col-md-6 col-md-offset-3">Skills</div>            
-            <div class="col-md-6 col-md-offset-3" id="skills">
-                <div class="media">
-                    <div class="media-left">
-                        <p class="media-object">
-                            2017 Jan to Present
-                        </p>
+            <div class="panel-group col-md-8 col-md-offset-2" id="site-accordion" role="tablist" aria-multiselectable="true">
+                <!--Skills collapse panel-->
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="skillsHeading">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#skills" aria-expanded="true" aria-controls="skills">
+                            <h4 class="panel-title">
+                                My Skills
+                            </h4>
+                        </a>
                     </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Middle aligned media</h4>
-                        <h5 class="media-subheading">Sub header</h5>
-                        <p class="media-content">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.
-                            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-md-offset-3">Experience</div>
-            <div class="col-md-6 col-md-offset-3" id="experience">
-                <div class="media">
-                    <div class="media-left">
-                        <p class="media-object">
-                            2017 Jan to Present
-                        </p>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Middle aligned media</h4>
-                        <h5 class="media-subheading">Sub header</h5>
-                        <p class="media-content">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.
-                            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                    <div id="skills" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="skillsHeading">
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <p class="media-object">
+                                        2017 Jan to Present
+                                    </p>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Middle aligned media</h4>
+                                    <h5 class="media-subheading">Sub header</h5>
+                                    <p class="media-content">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin
+                                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="media">
-                    <div class="media-left">
-                        <p class="media-object">
-                            2017 Jan to Present
-                        </p>
+                <!--Experience collapse panel-->
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="experienceHeading">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#experience" aria-expanded="true" aria-controls="experience">
+                            <h4 class="panel-title">
+                                My Experience
+                            </h4>
+                        </a>
                     </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Middle aligned media</h4>
-                        <h5 class="media-subheading">Sub header</h5>
-                        <p class="media-content">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.
-                            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                    <div id="experience" class="panel-collapse collapse" role="tabpanel" aria-labelledby="experienceHeading">
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <p class="media-object">
+                                        2017 Jan to Present
+                                    </p>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Middle aligned media</h4>
+                                    <h5 class="media-subheading">Sub header</h5>
+                                    <p class="media-content">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin
+                                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-md-offset-3">Education</div>            
-            <div class="col-md-6 col-md-offset-3" id="education">
-                <div class="media">
-                    <div class="media-left">
-                        <p class="media-object">
-                            2017 Jan to Present
-                        </p>
+                <!--Education collapse panel-->
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="educationHeading">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#education" aria-expanded="true" aria-controls="education">
+                            <h4 class="panel-title">
+                                Where I Studied
+                            </h4>
+                        </a>
                     </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Middle aligned media</h4>
-                        <h5 class="media-subheading">Sub header</h5>
-                        <p class="media-content">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.
-                            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                    <div id="education" class="panel-collapse collapse" role="tabpanel" aria-labelledby="educationHeading">
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <p class="media-object">
+                                        2017 Jan to Present
+                                    </p>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Middle aligned media</h4>
+                                    <h5 class="media-subheading">Sub header</h5>
+                                    <p class="media-content">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin
+                                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="row site-footer">
         <p class="text-center footer-info"></p>
         <div class="center-block" style="text-align: center">
@@ -117,8 +140,9 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
 </body>
 
 </html>
