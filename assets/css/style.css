@@ -5,6 +5,7 @@ body {
     min-height: 100vh;
     height: 100%;
     position: relative;
+    font-family: 'Lato', 'Quicksand', 'Nunito Sans', 'Arvo', sans-serif, serif;
 }
 
 .nav, .nav > li {
@@ -135,6 +136,10 @@ textarea::-webkit-input-placeholder {
     max-width: 100px
 }
 
+.media-subheading{
+    font-style: oblique
+}
+
 .long-text {
     width: 100%
 }
@@ -197,6 +202,7 @@ label {
 }
 
 .noselect {
+    cursor: default;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -204,4 +210,27 @@ label {
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
+}
+
+a {
+    color: #0A1612;
+}
+
+a:hover, a:focus {
+    color: #848886;
+    text-decoration: none; 
+}
+
+/* Override bootstrap default */
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    background-color: #1A2930;
+}
+
+.panel {
+    border: none;
+    box-shadow: none;
+}
+
+.panel-heading {
+    background: rgba(140, 140, 140, 0.27) !important;
 }
