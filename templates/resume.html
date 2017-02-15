@@ -47,24 +47,21 @@
                     <div class="panel-heading" role="tab" id="skillsHeading">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#skills" aria-expanded="true" aria-controls="skills">
                             <h4 class="panel-title">
-                                My Skills
+                                My Skills &amp; Interests
+                                <i class="fa fa-chevron-up" aria-hidden="true" style="float:right"></i>
                             </h4>
                         </a>
                     </div>
                     <div id="skills" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="skillsHeading">
                         <div class="panel-body">
-                            <div class="media">
-                                <div class="media-left">
-                                    <p class="media-object">
-                                        2017 Jan to Present
-                                    </p>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Middle aligned media</h4>
-                                    <h5 class="media-subheading">Sub header</h5>
-                                    <p class="media-content">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin
-                                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
-                                </div>
+                            <div class="col-md-4 col-sm-4">
+                                <canvas id="languages" width="200" height="200"></canvas>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <canvas id="frameworks" width="200" height="200"></canvas>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <canvas id="interests" width="200" height="200"></canvas>
                             </div>
                         </div>
                     </div>
@@ -72,9 +69,10 @@
                 <!--Experience collapse panel-->
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="experienceHeading">
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#experience" aria-expanded="true" aria-controls="experience">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#experience" aria-expanded="false" aria-controls="experience">
                             <h4 class="panel-title">
                                 My Experience
+                                <i class="fa fa-chevron-up" aria-hidden="true" style="float:right"></i>
                             </h4>
                         </a>
                     </div>
@@ -83,14 +81,35 @@
                             <div class="media">
                                 <div class="media-left">
                                     <p class="media-object">
-                                        2017 Jan to Present
+                                        2016 Jul to 2016 Nov
                                     </p>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Middle aligned media</h4>
-                                    <h5 class="media-subheading">Sub header</h5>
-                                    <p class="media-content">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin
-                                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                                    <h4 class="media-heading">Backend Developer</h4>
+                                    <h5 class="media-subheading">eBeeCare Pte. Ltd., SG</h5>
+                                    <p class="media-content">eBeeCare is a startup company based in Singapore. It provides C2C homecare services that
+                                        links in-home patients and heathcare service providers. As an part-time backend developer,
+                                        I worked with my supervisor developing and migrating the former backend system to
+                                        the new one backed by NodeJS and MongoDB. It was a great learning experience for
+                                        me as I developed my knowledge in setting up web server and database, writing REST
+                                        APIs services as well as resolving issues with system migration and integrations</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <p class="media-object">
+                                        2015 Jan to 2015 Jun
+                                    </p>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">R&amp;D Intern</h4>
+                                    <h5 class="media-subheading">SAP Innovation Center Netowrks Singapore, SG</h5>
+                                    <p class="media-content">At the IoT team of R&amp;D Department, SAP Singapore, I worked on a Smart Meeting Room
+                                        project together with another intern friend. Our goal was to leverages on technology
+                                        such as Arduino sensors, iBeacon and SAP HANA to stream real-time room status data
+                                        and improve the utilization of office meeting rooms. I developed a web dashboard
+                                        using SAP OpenUI5 framework as the frontend, and HANA XS engine as the backend tier.
+                                        Users could view real-time room status, book, cancel or auto-cancel the meeting rooms.</p>
                                 </div>
                             </div>
                         </div>
@@ -99,9 +118,10 @@
                 <!--Education collapse panel-->
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="educationHeading">
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#education" aria-expanded="true" aria-controls="education">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#education" aria-expanded="false" aria-controls="education">
                             <h4 class="panel-title">
                                 Where I Studied
+                                <i class="fa fa-chevron-up" aria-hidden="true" style="float:right"></i>
                             </h4>
                         </a>
                     </div>
@@ -110,14 +130,36 @@
                             <div class="media">
                                 <div class="media-left">
                                     <p class="media-object">
-                                        2017 Jan to Present
+                                        2013 Aug to 2017 May
                                     </p>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Middle aligned media</h4>
-                                    <h5 class="media-subheading">Sub header</h5>
-                                    <p class="media-content">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin
-                                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                                    <h4 class="media-heading">B.Comp. Information Systems</h4>
+                                    <h5 class="media-subheading">National University of Singapore, SG</h5>
+                                    <p class="media-content">I came to Singapore in 2011. I was quite lucky to be selected in the SM2 Scholarship
+                                        program after my second year of high school in Xi'an, China. After 18-month Preparation
+                                        Course I matriculated as an IS student in NUS, School of Computing. I am proud to
+                                        be in computing as we get to develop crazy fancy and useful stuff through designing
+                                        and programming. Looking forward to my Graduation and coding some really cool stuff
+                                        at work. </p>
+                                </div>
+
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <p class="media-object">
+                                        2016 Feb to 2016 Jun
+                                    </p>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">B.Com. Information Systems</h4>
+                                    <h5 class="media-subheading">University of Auckland, NZ</h5>
+                                    <p class="media-content">This 1 semester exchange program really pushed me out of the comfort zone. Not many folks
+                                        from Singapore went together with me. Thus being in a completely new environment,
+                                        I was forced to intiate conversations with new people almost everyday. I took courses
+                                        in Computer Networks, Information Security, Project Management and Management Information
+                                        Systems. Besides studies I also tried Canoeing which I couldn't really often do at
+                                        my undergrad in Singapore.</p>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +184,15 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="../assets/js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js"></script>
+    <script src="../assets/js/chart.js"></script>
+    <script>
+        $('.collapse').on('hide.bs.collapse', function () {
+            $(this).parent().find('i').removeClass('fa-chevron-up').addClass('fa-chevron-down');
+        }).on('show.bs.collapse', function () {
+            $(this).parent().find('i').removeClass('fa-chevron-down').addClass('fa-chevron-up');
+        });
+    </script>
 </body>
 
 </html>
