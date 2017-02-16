@@ -36,6 +36,22 @@ $(document).ready(function () {
         event.preventDefault();
         // Form validation
         if (isValidName() && isValidEmail()) {
+            (function () {
+                emailjs.init("user_XOsFbVHD1txpjQc7LSYvJ");
+            })();
+            var service_id = "default_service";
+            var template_id = "greetings_from_lewisxin_github_io";
+            var params = {
+                "from_name": name.val(),
+                "from_email": email.val(),
+                "message_html": textarea.val()
+            }
+            // console.log(params);
+            emailjs.send(service_id, template_id, params).then(function () {
+                console.log('Email Sent!')
+            }, function (err) {
+                console.error(err);
+            });
             $('#msg-form').slideToggle('slow');
             if ($('#msg-sent-alert').is(':visible')) {
                 $('#msg-sent-alert').hide()
@@ -101,7 +117,7 @@ var updateValidInputCSS = function (el, type) {
         })
         el.css('border-color', '#F7CE3E');
         el.css('color', 'rgb(222, 171, 46)');
-        if(isValidEmail() && isValidName()){
+        if (isValidEmail() && isValidName()) {
             $('.alert-danger').css('padding', '0');
             $('.alert-danger').css('opacity', '0');
         }
